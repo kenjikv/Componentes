@@ -9,7 +9,9 @@ import android.widget.Toast
 import com.componentes.button.ButtonActivity
 import com.componentes.checkradio.CheckRadioActivity
 import com.componentes.layout.LayoutActivity
+import com.componentes.listview.ListViewActivity
 import com.componentes.login.LoginActivity
+import com.componentes.spinner.SpinnerActivity
 import com.componentes.textimage.TextImageActivity
 
 class MainActivity : AppCompatActivity() {
@@ -33,6 +35,14 @@ class MainActivity : AppCompatActivity() {
     }
     fun onClickLogin(view: View) {
         startActivity(Intent(this, LoginActivity::class.java))
+    }
+
+    fun onClickSpinner(view: View) {
+        startActivity(Intent(this, SpinnerActivity::class.java))
+    }
+
+    fun onClickListView(view: View) {
+        startActivity(Intent(this, ListViewActivity::class.java))
     }
 
     /**

@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Componentes</string>
     <string name="hello_world">Hello World!</string>
+
+    <string-array name="valores">
+        <item>Elem 1</item>
+        <item>Elem 2</item>
+        <item>Elem 3</item>
+        <item>Elem 4</item>
+        <item>Elem 5</item>
+        <item>Elem 6</item>
+        <item>Elem 7</item>
+    </string-array>
 </resources>
