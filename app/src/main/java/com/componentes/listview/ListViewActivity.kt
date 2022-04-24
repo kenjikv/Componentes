@@ -33,5 +33,7 @@ class ListViewActivity : AppCompatActivity() {
         )
         var adaptador = AdapterTitulares(this, datos.toMutableList())
         lstOpciones.adapter = adaptador
+
+        adaptador.notifyDataSetChanged()
     }
 }

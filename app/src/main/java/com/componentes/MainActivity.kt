@@ -6,13 +6,20 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
+import com.componentes.actionbar.ActionBarActivity
+import com.componentes.bottomnavigationview.BottomNavigationViewActivity
 import com.componentes.button.ButtonActivity
 import com.componentes.checkradio.CheckRadioActivity
+import com.componentes.fragment.FragmentActivity
 import com.componentes.layout.LayoutActivity
 import com.componentes.listview.ListViewActivity
 import com.componentes.login.LoginActivity
+import com.componentes.playstore.PlayStoreActivity
+import com.componentes.recyclerview.RecyclerViewActivity
 import com.componentes.spinner.SpinnerActivity
+import com.componentes.tablayout.TabLayoutActivity
 import com.componentes.textimage.TextImageActivity
+import com.componentes.toolbar.ToolbarActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -43,6 +50,34 @@ class MainActivity : AppCompatActivity() {
 
     fun onClickListView(view: View) {
         startActivity(Intent(this, ListViewActivity::class.java))
+    }
+
+    fun onClickRecyclerView(view: View) {
+        startActivity(Intent(this, RecyclerViewActivity::class.java))
+    }
+
+    fun onClickFragment(view: View) {
+        startActivity(Intent(this, FragmentActivity::class.java))
+    }
+
+    fun onClickActionBar(view: View) {
+        startActivity(Intent(this, ActionBarActivity::class.java))
+    }
+
+    fun onClickToolbar(view: View) {
+        startActivity(Intent(this, ToolbarActivity::class.java))
+    }
+
+    fun onClickPlayStore(view: View) {
+        startActivity(Intent(this, PlayStoreActivity::class.java))
+    }
+
+    fun onClickTabLayout(view: View) {
+        startActivity(Intent(this, TabLayoutActivity::class.java))
+    }
+
+    fun onClickBottomNavigation(view: View) {
+        startActivity(Intent(this, BottomNavigationViewActivity::class.java))
     }
 
     /**

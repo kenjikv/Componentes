@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Componentes">
         <activity
+            android:name=".bottomnavigationview.BottomNavigationViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tablayout.TabLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".playstore.PlayStoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".toolbar.ToolbarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".actionbar.ActionBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.FragmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".recyclerview.RecyclerViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".listview.ListViewActivity"
             android:exported="false" />
         <activity

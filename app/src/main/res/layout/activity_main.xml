@@ -47,6 +47,48 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="onClickRecyclerView"
+        android:text="RecyclerView"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickFragment"
+        android:text="Fragment"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickActionBar"
+        android:text="ActionBar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickToolbar"
+        android:text="Toolbar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickTabLayout"
+        android:text="TabLayout"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBottomNavigation"
+        android:text="BottomNavigationView"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:onClick="onClickLogin"
         android:text="Login"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickPlayStore"
+        android:text="PlayStore"/>
 </LinearLayout>
